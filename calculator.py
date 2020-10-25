@@ -1,7 +1,9 @@
-def calculator_v1():
+def calculator():
     while True:
         number1 = int(input('\ninput a number: '))
-        method = input('do you want to multiply [*], divide [/], add [+} or subtract [-]: ')
+        method = input(
+            'do you want to multiply [*], divide [/], add [+} or subtract [-]: '
+        )
         number2 = int(input('input a second number: '))
 
         subtract = f'the output is: {number1 - number2}\n'
